@@ -41,3 +41,7 @@
 }
 @media(max-width:360px){.shell{padding-inline:16px}.hero{margin-inline:-16px;padding-inline:16px;grid-template-columns:minmax(0,1fr) 80px}.hero h1{font-size:28px}.art{height:110px!important}.benefits{margin-inline:-16px;padding-inline:16px}.logo{width:110px}.phone{font-size:14px}.utility-inner{font-size:11px}.account-links{gap:9px}.task h3{font-size:16px}.task-photo{height:85px}.catalog-cards h3{font-size:16px;min-height:60px}.catalog-cards>article{padding:10px}.category-link{font-size:12px}.price-example{padding:18px;grid-template-columns:86px minmax(0,1fr);column-gap:12px}.price-visual{padding:7px}.price-example h2{font-size:26px}.price-example p{font-size:14px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Cards without decorative numbering. */
+.task-photo{margin-top:0}.catalog-cards .equipment-gallery{margin-top:0}.steps h3{margin-top:0}.steps{list-style:none}
+@media(max-width:760px){.task-photo{margin-top:0}.steps li{padding:20px}.steps h3{margin-top:0}}
